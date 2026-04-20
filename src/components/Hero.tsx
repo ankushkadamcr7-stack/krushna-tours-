@@ -1,7 +1,7 @@
 import { Phone, MessageCircle, Star, MapPin, Clock, ShieldCheck, ArrowRight, CheckCircle2 } from 'lucide-react';
 import { motion } from 'motion/react';
 import React from 'react';
-import { WhatsappIcon } from './WhatsappIcon';
+import { WhatsappIconSVG as WhatsappIcon } from './WhatsappIconSVG';
 
 export default function Hero() {
   const scrollToDestinations = (e: React.MouseEvent<HTMLAnchorElement>) => {

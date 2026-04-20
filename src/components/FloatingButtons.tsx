@@ -1,5 +1,5 @@
 import { Phone, MessageCircle } from 'lucide-react';
-import { WhatsappIcon } from './WhatsappIcon';
+import { WhatsappIconSVG as WhatsappIcon } from './WhatsappIconSVG';
 
 export default function FloatingButtons() {
   return (
